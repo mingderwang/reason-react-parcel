@@ -1,0 +1,23 @@
+{
+  "name": "reason-react-parcel",
+  "version": "0.0.0",
+  "description": "Example template using Reason React in Parcel",
+  "main": "index.js",
+  "repository": "https://github.com/ywnn/reason-react-parcel",
+  "author": "Yoghaswara Hadi Nugroho",
+  "license": "Unlicense",
+  "devDependencies": {
+    "bs-platform": "^8.3.1",
+    "bsb-js": "^1.1.7",
+    "parcel-bundler": "^1.12.4"
+  },
+  "scripts": {
+    "start": "parcel start src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "reason-react": "^0.9.1"
+  }
+}
